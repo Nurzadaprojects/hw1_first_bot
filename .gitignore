@@ -1,2 +1,12 @@
 .idea
 .env
+db.sqlite3
+/__pycache__
+__pychache__/
+.DS_Store
+database/__pycache__/
+handlers/__pycache__/
+keyboards/__pycache__/
+
+
+
