@@ -29,30 +29,5 @@ async def start_questionnaire_keyboard():
     return markup
 
 
-async def start_menu_color_keyboard():
-    markup = InlineKeyboardMarkup()
-    color_button = InlineKeyboardButton(
-        "Color",
-        callback_data="color"
 
-    )
-
-    markup.add(color_button)
-    return markup
-
-async def start_color_keyboard():
-    markup = InlineKeyboardMarkup()
-    white_button = InlineKeyboardButton(
-        "White",
-        callback_data="white"
-    )
-    green_button = InlineKeyboardButton(
-        "Green",
-        callback_data="green"
-
-    )
-
-    markup.add(white_button)
-    markup.add(green_button)
-    return markup
 
